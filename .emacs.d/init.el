@@ -7,7 +7,7 @@
 
 
 (add-to-list 'load-path(expand-file-name "lisp" user-emacs-directory))
-(require 'init-benchmarking)
+(require 'benchmarking)
 
 (defconst *spell-check-support-enable* nil)
 
@@ -31,7 +31,7 @@
 (setq custom-file (locate-user-emacs-file "custom.el"))
 
 
-(require 'init_global)
+(require 'global)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'init_site_lisp)
