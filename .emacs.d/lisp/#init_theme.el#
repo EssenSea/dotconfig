@@ -1,0 +1,50 @@
+;;;;;;;;;;;;
+;;theme
+;;;;;;;;;;;;
+;; (use-package base16-theme
+;;  :ensure t) 
+;; (use-package doom-themes
+;;   :straight t)
+(straight-use-package
+  '(everforest) :type git :repo "https://git.sr.ht/~theorytoe/everforest-theme")
+(use-package ever
+  :after tex
+  :straight (:host github :repo "cdominik/cdlatex" )
+  )
+(load-theme 'everforest-hard-dark t)
+;; (load-theme 'everforest-hard-light t)
+
+
+
+(use-package hima-theme
+  :ensure t)
+(use-package catppuccin-theme
+  :ensure t)
+(use-package circadian
+  :straight t
+  :config
+  (setq calendar-latitude 103.35)
+  (setq calendar-longitude 34.69)
+
+  (setq circadian-themes '(
+			   ("7:30"   .  hima)
+			   ("19:30"  .  everforest-hard-dark)
+			   ))
+  (circadian-setup))
+
+
+
+(custom-set-faces
+ '(default
+   ((t
+     (:family "CodeNewRoman Nerd Font Mono"
+	      :foundry "outline"
+	      :slant normal
+	      :weight regular
+	      :height 150
+	      :width normal)))))
+
+
+
+
+(provide 'init_theme)
