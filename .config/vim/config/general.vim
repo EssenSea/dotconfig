@@ -23,7 +23,7 @@ set nowrapscan
 let g:mapleader = "\<Space>"
 "hi Ignore guifg=color
 "hi Ignore ctermfg=
-let g:ft_man_open_mode = 'vert'
+"let g:ft_man_open_mode = 'vert'
 if v:progname =~? "evim"
 finish
 endif
