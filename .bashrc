@@ -14,16 +14,12 @@ alias grep='grep --color=auto'
 alias ls="lsd"
 alias ll="lsd -la"
 alias la="lsd -a"
-# alias cleanup='sudo pacman -Rns `pacman -Qtdq`'
 alias wget='wget -c '
-# alias rmpkg="sudo pacman -Rdd"
 alias hw='hwinfo --short'
 
 alias untar='tar -zxvf '
-alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+# alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
-# alias man="man --locale=zh_CN"
-# PS1='[\u@\h \W]\$ '
 git_branch() {
   branch=$(git branch 2>/dev/null | grep '^*' | colrm 1 2)
   if [ ! -z "$branch" ]; then
@@ -82,7 +78,6 @@ PATH+=/usr/local/texlive/2024/bin/x86_64-linux
 MANPATH+=/usr/local/texlive/2024/texmf-dist/doc/man
 INFOPATH+=/usr/local/texlive/2024/texmf-dist/doc/info
 
-# source /home/moonsea/.config/broot/launcher/bash/br
 # shellcheck shell=bash
 
 # =============================================================================
@@ -219,4 +214,3 @@ eval "$(zoxide init bash)"
 # export WLR_BACKENDS=headless
 # export WLR_RENDERER=vulkan
 eval "$(ssh-agent -s)" &
-# fastfetch
