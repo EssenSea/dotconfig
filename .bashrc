@@ -218,4 +218,5 @@ eval "$(zoxide init bash)"
 # export WLR_RENDERER_ALLOW_SOFTWARE=1
 # export WLR_BACKENDS=headless
 # export WLR_RENDERER=vulkan
-
+eval "$(ssh-agent -s)" &
+# fastfetch
