@@ -53,9 +53,12 @@ VENV="\$(virtualenv_info)";
 # PS1="\[\e[0;31m\]  -<< \$(git_branch) \[\e[1;36m\]\u@\h \d \A \[\e[0;01m\]\W ${VENV} \[\e[0;31m\]>>- \n \[\e[0;31m\] >>-\[\e[1m\]:\[\e[0m\]"
 PS1="\[\e[0;31m\] ++-<<+ \$(git_branch) \[\e[1;36m\]\u@\h \d \A \[\e[0;01m\]\W ${VENV}\[\e[0;31m\]+>>-++ \n \[\e[0;31m\]>>-++\[\e[1m\]:\[\e[0m\]"
 
+
 source /usr/share/bash-completion/completions/fzf
 source /usr/share/fzf/key-bindings.bash
 eval "$(thefuck --alias)"
+
+
 # eval "$(starship init bash)"
 # Load starship prompt if starship is installed
 # if  [ -x /usr/bin/starship ]; then
@@ -72,8 +75,8 @@ eval "$(thefuck --alias)"
 #     __main
 #     unset -f __main
 # fi
-#
-#
+
+
 PATH+=/usr/local/texlive/2024/bin/x86_64-linux
 MANPATH+=/usr/local/texlive/2024/texmf-dist/doc/man
 INFOPATH+=/usr/local/texlive/2024/texmf-dist/doc/info
