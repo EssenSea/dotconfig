@@ -33,7 +33,7 @@
 (custom-set-faces
  '(default
    ((t
-     (:family "FiraCode Nerd Font Mono"
+     (:family "FiraCode Nerd Font"
 	      :foundry "outline"
 	      :slant normal
 	      :weight regular
