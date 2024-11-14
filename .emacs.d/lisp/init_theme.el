@@ -22,7 +22,7 @@
   (setq calendar-longitude 34.69)
 
   (setq circadian-themes '(
-			   ("7:30"   .  nano-light)
+			   ("7:30"   .  nano-dark)
 			   ("18:00"  .  nano-dark)
 			   ))
   (circadian-setup))
@@ -33,11 +33,11 @@
 (custom-set-faces
  '(default
    ((t
-     (:family "CodeNewRoman Nerd Font Mono"
+     (:family "FiraCode Nerd Font Mono"
 	      :foundry "outline"
 	      :slant normal
 	      :weight regular
-	      :height 160
+	      :height 150
 	      :width normal)))))
 
 
