@@ -14,7 +14,7 @@
   :straight t)
 (use-package catppuccin-theme
   :ensure t)
-(setq catppuccin-flavor 'frappe)
+(setq catppuccin-flavor 'latte)
 (use-package circadian
   :straight t
   :config
@@ -22,8 +22,8 @@
   (setq calendar-longitude 34.69)
 
   (setq circadian-themes '(
-			   ("7:30"   .  nano-dark)
-			   ("18:00"  .  nano-dark)
+			   ("7:30"   .  modus-vivendi)
+			   ("18:00"  .  modus-vivendi)
 			   ))
   (circadian-setup))
 
