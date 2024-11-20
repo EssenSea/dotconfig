@@ -16,7 +16,7 @@ alias ll="lsd -la"
 alias la="lsd -a"
 alias wget='wget -c '
 alias hw='hwinfo --short'
-
+alias mpv='mpv --loop'
 alias untar='tar -zxvf '
 # alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 
