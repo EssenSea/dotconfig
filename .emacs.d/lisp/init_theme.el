@@ -37,7 +37,7 @@
 	      :foundry "outline"
 	      :slant normal
 	      :weight regular
-	      :height 160
+	      :height 180
 	      :width normal)))))
 
 

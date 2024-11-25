@@ -19,7 +19,9 @@ alias hw='hwinfo --short'
 alias mpv='mpv --loop'
 alias untar='tar -zxvf '
 # alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
+alias sioyek='source $HOME/pyvenv/bin/activate && sioyek &'
 
+alias bm='STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.local/share/Steam" STEAM_COMPAT_DATA_PATH="$HOME/.local/share/Steam/steamapps/compatdata/2358720" WINEPREFIX="$HOME/.local/share/Steam/steamapps/compatdata/2358720/pfx" "$HOME/.local/share/Steam/steamapps/common/Proton - Experimental/proton" run "$HOME/Downloads/Black.Myth.Wukong.v1.0-v1.0.9.Plus.44.Trainer-FLiNG/Black Myth Wukong v1.0-v1.0.9 Plus 44 Trainer.exe"'
 git_branch() {
   branch=$(git branch 2>/dev/null | grep '^*' | colrm 1 2)
   if [ ! -z "$branch" ]; then
@@ -217,3 +219,4 @@ eval "$(zoxide init bash)"
 # export WLR_BACKENDS=headless
 # export WLR_RENDERER=vulkan
 eval "$(ssh-agent -s)" &
+eval "$(pandoc --bash-completion)"

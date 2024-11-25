@@ -14,7 +14,7 @@ set termguicolors     " enable true colors support
 "let ayucolor="mirage" " for mirage version of theme
 "let ayucolor="dark"   " for dark version of theme
 set t_Co=256
-set bg=dark
+set bg=light
 let g:sonokai_style='maia'
 let g:sonokai_better_performance = 1
 let g:sonokai_transparen_background = 2
