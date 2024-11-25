@@ -1,5 +1,8 @@
-@import "yoru.css";
-
+/*@import "yoru.css";*/
+@define-color bg	#000000;
+@define-color fg	#edeff0;
+@define-color active	#f26e74;
+@define-color alter		#6791C9;
 
 *{
 	font-family: FiraCode Nerd Font, Roboto Nerd Font;
