@@ -16,7 +16,7 @@ set shiftwidth=4
 set tabstop=4
 set mouse=a
 set guioptions=mgT
-set clipboard=unnamed
+"set clipboard=unnamed
 set showcmd ruler
 set ignorecase smartcase
 set nowrapscan
