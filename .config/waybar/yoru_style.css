@@ -69,6 +69,7 @@ window#waybar.hidden{
 }
 #battery.charging {
 	color: @active;
+	border: 0px solid @fg;
 }
 @keyframes gradient {
 	0% {
