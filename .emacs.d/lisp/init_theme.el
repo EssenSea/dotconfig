@@ -23,7 +23,7 @@
 
   (setq circadian-themes '(
 			   ("7:30"   .  modus-vivendi)
-			   ("18:00"  .  modus-vivendi)
+			   ("18:00"  .  ayu-dark)
 			   ))
   (circadian-setup))
 

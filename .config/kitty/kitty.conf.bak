@@ -341,7 +341,7 @@ map opt+cmd+,    debug_config
 
 
 # BEGIN_KITTY_THEME
-# Nordfox
-# include current-theme.conf
+# Ayu
+include current-theme.conf
 # END_KITTY_THEME
 include iceberg.conf
