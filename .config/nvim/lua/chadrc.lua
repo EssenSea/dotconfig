@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "nightowl",
+	theme = "yoru",
 
   -- transparency = true
 	-- hl_override = {
@@ -18,7 +18,7 @@ M.base46 = {
 M.ui = {
   statusline = {
     theme = "vscode",
-    -- separator_style = "block"
+    -- separator_style = "arrow"
   }
 }
 

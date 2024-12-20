@@ -21,7 +21,7 @@ alias untar='tar -zxvf '
 # alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias sioyek='source $HOME/pyvenv/bin/activate && sioyek &'
 
-alias bm='STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.local/share/Steam" STEAM_COMPAT_DATA_PATH="$HOME/.local/share/Steam/steamapps/compatdata/2358720" WINEPREFIX="$HOME/.local/share/Steam/steamapps/compatdata/2358720/pfx" "$HOME/.local/share/Steam/steamapps/common/Proton - Experimental/proton" run "$HOME/Downloads/Black.Myth.Wukong.v1.0-v1.0.9.Plus.44.Trainer-FLiNG/Black Myth Wukong v1.0-v1.0.9 Plus 44 Trainer.exe"'
+alias bm='STEAM_COMPAT_CLIENT_INSTALL_PATH="$HOME/.local/share/Steam" STEAM_COMPAT_DATA_PATH="$HOME/.local/share/Steam/steamapps/compatdata/2358720" WINEPREFIX="$HOME/.local/share/Steam/steamapps/compatdata/2358720/pfx" "$HOME/.local/share/Steam/steamapps/common/Proton Hotfix/proton" run "$HOME/Downloads/Black Myth Wukong v1.0-v1.0.13 Plus 44 Trainer.exe"'
 
 # git status prompt
 git_branch() {
@@ -82,6 +82,7 @@ eval "$(thefuck --alias)"
 
 
 PATH+=/usr/local/texlive/2024/bin/x86_64-linux
+PATH+=$HOME/.local/bin
 MANPATH+=/usr/local/texlive/2024/texmf-dist/doc/man
 INFOPATH+=/usr/local/texlive/2024/texmf-dist/doc/info
 

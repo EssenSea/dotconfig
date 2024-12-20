@@ -23,7 +23,7 @@
 
   (setq circadian-themes '(
 			   ("7:30"   .  modus-vivendi)
-			   ("18:00"  .  ayu-dark)
+			   ("18:00"  .  modus-vivendi)
 			   ))
   (circadian-setup))
 
@@ -37,8 +37,7 @@
 	      :foundry "outline"
 	      :slant normal
 	      :weight regular
-	      :height 140
-	      :width normal)))))
+	      :height 135	      :width normal)))))
 
 
 
