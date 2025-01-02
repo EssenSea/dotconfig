@@ -1,9 +1,9 @@
 source $HOME/.config/vim/config/general.vim
 source $HOME/.config/vim/config/plungin.vim
 "source $HOME/.config/vim/config/nerdtree.vim
-"source $HOME/.config/vim/config/latex.vim
+source $HOME/.config/vim/config/latex.vim
 source $HOME/.config/vim/config/ultisnips.vim
-"source $HOME/.config/vim/config/coc.vim
+source $HOME/.config/vim/config/coc.vim
 source $HOME/.config/vim/config/theme.vim
 source $HOME/.config/vim/config/whichkey.vim
 "source $HOME/.config/vim/config/easymotion.vim

@@ -31,13 +31,14 @@
 ;; 	("\"c:/ProgramData/scoop/apps/sumatrapdf/current/SumatraPDF.exe\"
 ;; 	-reuse-instance" (mode-io-correlate " -forward-search %b %n ")
 ;; 	" %o"))))
-  (setq TeX-view-program-selection '(("sioyek"
-				      ("/usr/bin/sioyek"))
+  (setq TeX-view-program-selection '(("Sioyek"
+				      ("/usr/bin/Sioyek"))
 				     ))
   :custom
   (LaTeX-preview-setup t)
   (preview-supports-image-type 'dvipng)
   (reftex-plug-into-AUCTeX t)
+  (TeX-engine-set 'xetex)
   )
 
 (provide 'init_latex)
