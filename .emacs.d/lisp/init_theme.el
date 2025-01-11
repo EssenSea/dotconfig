@@ -13,8 +13,10 @@
 (use-package hima-theme
   :straight t)
 (use-package catppuccin-theme
-  :ensure t)
+  :straight t)
 (setq catppuccin-flavor 'frappe)
+(use-package ayu-theme
+  :straight t)
 (use-package circadian
   :straight t
   :config
@@ -22,12 +24,12 @@
   (setq calendar-longitude 34.69)
 
   (setq circadian-themes '(
-			   ("7:30"   .  catppuccin)
-			   ("18:00"  .  misterioso)
+			   ("7:30"   .  ayu-grey)
+			   ("18:00"  .  ayu-grey)
 			   ))
   (circadian-setup))
 
-(setq default-frame-alist '((alpha-background . 85)))
+;; (setq default-frame-alist '((alpha-background . 85)))
 
 
 (custom-set-faces

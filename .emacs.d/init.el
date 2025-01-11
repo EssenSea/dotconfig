@@ -52,7 +52,7 @@
 (require 'init_projectile)
 
 
-;;(require 'pdf)
+(require 'pdf)
 (require 'init_org)
 (require 'init_latex)
 
