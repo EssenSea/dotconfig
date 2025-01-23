@@ -13,11 +13,6 @@
    :host github
    :repo "rougier/notebook-mode"))
 
-
-
-
-
-
 (use-package org
   :ensure t
   :hook 
@@ -83,9 +78,5 @@
 	'((sequence "TODO(t)" "WAIT(w!)" "|" "DONE(d!)" "CANCEL(c!/@)")
           (sequence "READ(r!)" "REVIEW(!/@)" "PRACTISE(p!/@)"
 		    "NOTE(n!/@)" "AMEMDMEMTS(a!/@)" "|" "FINISHED(f!/@)"))))
-
-
-
-
 
 (provide 'init_org)

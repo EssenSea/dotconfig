@@ -4,14 +4,14 @@
 
 
 (use-package projectile
-  :ensure t
+  :straight t
   :bind (("C-c p" . projectile-command-map))
   :config
   (setq projectile-mode-line "Projectile")
   (setq projectile-track-known-projects-automatically t))
 
 (use-package counsel-projectile
-  :ensure t
+  :straight t
   :after (projectile)
   :init (counsel-projectile-mode))
   

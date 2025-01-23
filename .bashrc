@@ -81,8 +81,9 @@ eval "$(thefuck --alias)"
 # fi
 
 
-PATH+=/usr/local/texlive/2024/bin/x86_64-linux
-PATH+=$HOME/.local/bin
+PATH+=:/usr/local/texlive/2024/bin/x86_64-linux
+PATH+=:$HOME/.local/bin
+PATH+=:$HOME/.cargo/bin/
 MANPATH+=/usr/local/texlive/2024/texmf-dist/doc/man
 INFOPATH+=/usr/local/texlive/2024/texmf-dist/doc/info
 

@@ -2,7 +2,7 @@
 ;;theme
 ;;;;;;;;;;;;
 ;; (use-package base16-theme
-;;  :ensure t) 
+;;  :straight t) 
 ;; (use-package doom-themes
 ;;   :straight t)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/everforest-theme")

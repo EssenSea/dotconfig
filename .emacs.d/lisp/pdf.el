@@ -1,5 +1,5 @@
 (use-package pdf-tools
-  :ensure t
+  :straight t
   :defer t
   :init
   (pdf-loader-install))

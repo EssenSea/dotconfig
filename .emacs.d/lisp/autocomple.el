@@ -2,10 +2,10 @@
   ;;补全功能增强插件ivy
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (use-package counsel
-  :ensure t)
+  :straight t)
 
   (use-package ivy
-  :ensure t
+  :straight t
   :init
   (ivy-mode 1)
   (counsel-mode 1)
@@ -31,7 +31,7 @@
 
 
 (use-package company
-  :ensure t
+  :straight t
   :init (global-company-mode)
   :config
   (setq company-minimum-prefix-length 1) ; 只需敲 1 个字母就开始进行自
@@ -48,7 +48,7 @@
 
 
 (use-package company-box
-  :ensure t
+  :straight t
   :hook (company-mode . company-box-mode))
 
 
