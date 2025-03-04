@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/moonsea/.cargo/bin/neovide
+Icon=/home/moonsea/.cargo/git/checkouts/neovide-fa1a54c7e22a1a5b/38fd9d7/assets/neovide.svg
+Name=Neovide
+Terminal=false
+Keywords=Text;Editor;
+Categories=Utility;TextEditor;
+Comment=No Nonsense Neovim Client in Rust
+MimeType=text/english;text/plain;text/x-makefile;text/x-c++hdr;text/x-c++src;text/x-chdr;text/x-csrc;text/x-java;text/x-moc;text/x-pascal;text/x-tcl;text/x-tex;application/x-shellscript;text/x-c;text/x-c++;
