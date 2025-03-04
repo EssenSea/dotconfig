@@ -5,8 +5,11 @@
 ;;  :straight t) 
 ;; (use-package doom-themes
 ;;   :straight t)
-(add-to-list 'custom-theme-load-path "~/.emacs.d/everforest-theme")
-
+(add-to-list 'custom-theme-load-path "~/.emacs.d/custom/everforest-theme")
+;(straight-use-package '(everforest-theme
+			;:type git
+			
+			;:repo "~theorytoe/everforest-theme"))
 (straight-use-package '(nano-theme :type git :host github
                                    :repo "rougier/nano-theme"))
 
@@ -25,7 +28,7 @@
 
   (setq circadian-themes '(
 			   ("7:30"   .  ayu-grey)
-			   ("18:00"  .  ayu-grey)
+			   ("18:00"  .  everforest-hard-dark)
 			   ))
   (circadian-setup))
 

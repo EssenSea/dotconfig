@@ -12,7 +12,13 @@
    :type git
    :host github
    :repo "rougier/notebook-mode"))
-
+;; (straight-use-package
+;;  '(paper-skimming
+;;    :type git
+;;    :host github
+;;    :repo "101scholar/paper-skimming"))
+(use-package paper-skimming
+  :load-path "~/.emacs.d/custom/paper-skimming/")
 (use-package org
   :ensure t
   :hook 

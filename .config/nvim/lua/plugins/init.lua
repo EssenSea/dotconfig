@@ -26,7 +26,7 @@ return {
   },
   {
     "yianwillis/vimcdoc",
-     lazy = true
+     lazy = false
   },
   {
     "gentoo/gentoo-syntax",
