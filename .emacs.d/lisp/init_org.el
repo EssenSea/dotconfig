@@ -16,7 +16,7 @@
 ;;  '(paper-skimming
 ;;    :type git
 ;;    :host github
-;;    :repo "101scholar/paper-skimming"))
+;;    :repo "101scholar/paper-skimming.git/paper-skimming"))
 (use-package paper-skimming
   :load-path "~/.emacs.d/custom/paper-skimming/")
 (use-package org

@@ -8,7 +8,7 @@ o.cursorlineopt ='both' -- to enable cursorline!
 o.colorcolumn = '+1'
 o.textwidth = 80
 o.backup = false
-o.signcolumn= 'auto'
+o.signcolumn= 'no'
 
 if g.neovide then
   o.guifont = 'CodeNewRoman Nerd Font:h16'

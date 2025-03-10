@@ -81,11 +81,11 @@ eval "$(thefuck --alias)"
 # fi
 
 
-PATH+=:/usr/local/texlive/2024/bin/x86_64-linux
-PATH+=:$HOME/.local/bin
-PATH+=:$HOME/.cargo/bin/
-MANPATH+=/usr/local/texlive/2024/texmf-dist/doc/man
-INFOPATH+=/usr/local/texlive/2024/texmf-dist/doc/info
+export PATH="/usr/local/texlive/2025/bin/x86_64-linux:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.cargo/bin/:$PATH"
+export MANPATH="/usr/local/texlive/2025/texmf-dist/doc/man:$MANPATH"
+export INFOPATH="/usr/local/texlive/2025/texmf-dist/doc/info:$INFOPATH"
 
 # shellcheck shell=bash
 

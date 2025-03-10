@@ -16,7 +16,12 @@ set shiftwidth=4
 set tabstop=4
 set mouse=a
 set guioptions=mgT
-"set clipboard=unnamed
+set clipboard=unnamedplus
+set paste
+if has("autocmd")
+  au InsertEnter * set nopaste
+  au InsertLeave * set paste
+endif
 set showcmd ruler
 set ignorecase smartcase
 set nowrapscan
@@ -64,3 +69,4 @@ endif
 if has('syntax') && has('eval')
 packadd! matchit
 endif
+
