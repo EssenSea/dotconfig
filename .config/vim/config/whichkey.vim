@@ -18,3 +18,10 @@ vmap <silent> <Leader>w <Plug>TranslateWV
 " Translate the text in clipboard
 " nmap <silent> <Leader>x <Plug>TranslateX
 
+"vnoremap <leader>y :w !wl-copy<CR>
+"xnoremap <silent> <leader>y y:call system("wl-copy --trim-newline", @*)<cr>:call system("wl-copy -p --trim-newline", @*)<cr>
+
+"自定义剪贴板命令
+xnoremap <leader>y :w !wl-copy --foreground --type text/plain<CR><CR>
+nnoremap <leader>p :r !wl-paste<CR>
+

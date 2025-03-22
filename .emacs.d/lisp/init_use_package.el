@@ -14,7 +14,7 @@
 
  (eval-when-compile
    (require 'use-package))
- (package-initialize)
+ ;; (package-initialize)
 
 
 

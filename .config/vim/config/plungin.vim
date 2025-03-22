@@ -16,6 +16,8 @@ runtime ftplugin/man.vim
    Plug 'yianwillis/vimcdoc'
    Plug 'liuchengxu/vim-which-key',{'on':['WhichKey', 'WhichKey!']}
    Plug 'luochen1990/rainbow'
+   Plug 'jasonccox/vim-wayland-clipboard'
+
    let g:rainbow_active = 1
    " Plug 'preservim/nerdtree'
    Plug 'preservim/nerdcommenter'

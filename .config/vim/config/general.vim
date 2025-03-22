@@ -22,10 +22,12 @@ if has("autocmd")
   au InsertEnter * set nopaste
   au InsertLeave * set paste
 endif
+"自定义剪贴板命令
 set showcmd ruler
 set ignorecase smartcase
 set nowrapscan
 let g:mapleader = "\<Space>"
+
 "hi Ignore guifg=color
 "hi Ignore ctermfg=
 "let g:ft_man_open_mode = 'vert'

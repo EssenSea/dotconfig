@@ -84,9 +84,12 @@ eval "$(thefuck --alias)"
 export PATH="/usr/local/texlive/2025/bin/x86_64-linux:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.cargo/bin/:$PATH"
+export PATH="$HOME/node_modules/.bin/:$PATH"
 export MANPATH="/usr/local/texlive/2025/texmf-dist/doc/man:$MANPATH"
 export INFOPATH="/usr/local/texlive/2025/texmf-dist/doc/info:$INFOPATH"
 
+export CLIPBOARD=wayland
+export HYPRLAND_SHARE_WRITABLE=1
 # shellcheck shell=bash
 
 # =============================================================================

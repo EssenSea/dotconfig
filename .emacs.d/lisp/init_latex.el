@@ -31,8 +31,8 @@
 ;; 	("\"c:/ProgramData/scoop/apps/sumatrapdf/current/SumatraPDF.exe\"
 ;; 	-reuse-instance" (mode-io-correlate " -forward-search %b %n ")
 ;; 	" %o"))))
-  (setq TeX-view-program-selection '(("Sioyek"
-				      ("/usr/bin/Sioyek"))
+  (setq TeX-view-program-selection '(("sioyek"
+				      ("/usr/bin/sioyek"))
 				     ))
   :custom
   (LaTeX-preview-setup t)

@@ -31,7 +31,7 @@
 (setq custom-file (locate-user-emacs-file "custom.el"))
 
 
-(require 'global)
+(require 'init_global)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'init_site_lisp)
@@ -44,7 +44,7 @@
 
 
 (require 'init_theme)
-;;(require 'init_nano)
+;(require 'init_nano)
 (require 'utils)
 (require 'startscr)
 (require 'autocomple)
